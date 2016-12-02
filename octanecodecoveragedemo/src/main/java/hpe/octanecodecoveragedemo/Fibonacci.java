@@ -23,6 +23,7 @@ public class Fibonacci {
 		if (number == 1 || number == 2) {
 			return 1;
 			
+			
 		}
  
 		return fibonacciRecusion(number - 1) + fibonacciRecusion(number - 2); // tail recursion
