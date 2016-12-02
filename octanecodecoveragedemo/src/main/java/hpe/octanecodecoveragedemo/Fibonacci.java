@@ -18,8 +18,7 @@ public class Fibonacci {
  
 		log("\nMethod-2: Fibonacci number at location " + number + " is ==> " + (fibonacciLoop(number) + ""));
  	}
- 
-	// Method-1: Java program for Fibonacci number using recursion.
+ 	// Method-1: Java program for Fibonacci number using recursion.
 	public static int fibonacciRecusion(int number) {
 		if (number == 1 || number == 2) {
 			return 1;
