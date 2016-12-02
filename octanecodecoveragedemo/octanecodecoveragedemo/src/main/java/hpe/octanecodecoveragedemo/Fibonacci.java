@@ -1,12 +1,12 @@
 package hpe.octanecodecoveragedemo;
 
+
 import java.util.Scanner;
 
 public class Fibonacci {
  	@SuppressWarnings("resource")
 	public static void main(String args[]) {
- 
- 		// input to print Fibonacci series upto how many numbers
+  		// input to print Fibonacci series upto how many numbers
 		log("Enter number which Fibonacci series to print: ");
 		int number = new Scanner(System.in).nextInt();
  
@@ -15,8 +15,7 @@ public class Fibonacci {
 		for (int i = 1; i <= number; i++) {
 			log(fibonacciRecusion(i) + " ");
 		}
- 
-		log("\nMethod-2: Fibonacci number at location " + number + " is ==> " + (fibonacciLoop(number) + ""));
+ 		log("\nMethod-2: Fibonacci number at location " + number + " is ==> " + (fibonacciLoop(number) + ""));
  	}
  	// Method-1: Java program for Fibonacci number using recursion.
 	public static int fibonacciRecusion(int number) {
