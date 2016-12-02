@@ -11,7 +11,7 @@ import hpe.octanecodecoveragedemo.Fibonacci;
 public class FibonacciTest   {
 	
 	Random ran = new Random();
-	int totalNumber = ran.nextInt(25) + 1;
+	int totalNumber = ran.nextInt(24) + 1;
 	
 	//int totalNumber = 20;
 	 
